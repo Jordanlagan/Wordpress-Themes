@@ -41,7 +41,7 @@
             </div><!-- .site-branding -->
 
             <nav id="site-navigation" class="main-navigation">
-                <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'clean-blogging' ); ?></button>
+                <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" style="width: 20px; height: 0px; background: url('../images/menu.png') center no-repeat;"><?php esc_html_e( '', 'clean-blogging' ); ?></button>
                 <?php
                     wp_nav_menu( array(
                         'theme_location' => 'primary-menu',

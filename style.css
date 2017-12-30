@@ -25,6 +25,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 .site-header {
 	background-color: #134b73 !important;
   height: 75px !important;
+	width: 100%;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }
 
 .menu-toggle,
@@ -40,6 +43,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
   width: 165px !important;
   padding-top: 15px !important;
   padding-bottom: 15px !important;
+	padding-left: 10px !important;
 }
 
 .main-navigation {
@@ -65,5 +69,26 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 }
 
 @media only screen and (max-width: 767px) {
+	.menu {
+		background: #134b73 !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
 
+	.menu-nav-container {
+		position: relative;
+		width: 100%
+	}
+
+	.menu-item {
+		border-bottom: 0 !important;
+	}
+
+	.menu li a {
+		padding-left: 15px;
+	}
+
+	.menu-toggle:focus {
+		outline: none !important;
+	}
 }

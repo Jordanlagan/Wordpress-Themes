@@ -4,8 +4,8 @@ Contributors: automattic
 Tags: custom-background, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, two-columns, sticky-post, blog, custom-colors
 
 Requires at least: 4.0
-Tested up to: 4.9.1
-Stable tag: 1.3
+Tested up to: 4.9.2
+Stable tag: 1.4
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
@@ -40,6 +40,9 @@ This theme has integrated support for Infinite Scroll in Jetpack.
 Additionally it supports almost every single plugin. If you get any compatibility issues with any of the plugin installed on your site then please create support ticket.
 
 == Changelog ==
+
+= 1.4 - Feb 04 2018 =
+* Added correct preview URL and tested on latest wordpress version that is 4.9.2.
 
 = 1.3 - Dec 27 2017 =
 * Added Customizer support.

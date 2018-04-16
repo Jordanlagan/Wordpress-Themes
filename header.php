@@ -17,7 +17,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 
@@ -31,17 +30,16 @@
               <a href="https://digitalposition.com/"><img src="../images/Digital-Position-Logo.png">
 
                 <?php
-
                 $description = get_bloginfo( 'description', 'display' );
                 if ( $description || is_customize_preview() ) : ?>
                     <p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
                 <?php
                 endif; ?>
-                </a>
+                </a>				
             </div><!-- .site-branding -->
 
             <nav id="site-navigation" class="main-navigation">
-                <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" style="width: 20px; height: 0px; background: url('../images/menu.png') center no-repeat;"><?php esc_html_e( '', 'clean-blogging' ); ?></button>
+                <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" style="width: 20px; height: 0px; background: url('../images/menu.png') center no-repeat;"><?php esc_html_e( 'Primary Menu', 'clean-blogging' ); ?></button>
                 <?php
                     wp_nav_menu( array(
                         'theme_location' => 'primary-menu',
